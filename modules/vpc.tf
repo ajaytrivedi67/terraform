@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "/Users/ajaytrivedi/Downloads/terraform-aws-vpc-develop"
+  source = "terraform/terraform-aws-vpc-develop"
 
   name = "dev-vpc"
   region = "us-east-1"
