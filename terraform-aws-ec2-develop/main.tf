@@ -113,3 +113,4 @@ resource "aws_instance" "privateinstance" {
     },
     var.tags
   )
+}
