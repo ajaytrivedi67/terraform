@@ -1,5 +1,5 @@
 module "ec2" {
-  source = "/Users/ajaytrivedi/Downloads/terraform-aws-ec2-develop"
+  source = "terraform/terraform-aws-ec2-develop"
   cidr_block = "172.20.0.0/16"
   vpc_id = "vpc-0c48111479bc06649"
   private_subnet_cidr_blocks = ["172.20.10.0/24"]
