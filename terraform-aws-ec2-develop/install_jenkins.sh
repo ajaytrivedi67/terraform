@@ -7,7 +7,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 sudo yum upgrade -y
 sudo amazon-linux-extras enable ansible2
 sudo yum install jenkins java-openjdk11 ansible git -y
-sudo echo "jenkins ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 sudo systemctl daemon-reload
 sudo systemctl start jenkins
 sudo systemctl status jenkins
