@@ -9,7 +9,7 @@ module "ec2" {
   availability_zones = ["ap-south-1a","ap-south-1b"]
   jenkins_ami = "ami-079b5e5b3971bd10d"
   jenkins_ebs_optimized = true
-  jenkins_instance_type = "t2.micro"
+  jenkins_instance_type = "t2.medium"
   key_name = "jenkins"
   name = "jenkins"
   privat_ins_name = "tomcat"
