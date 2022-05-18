@@ -12,12 +12,10 @@ This module creates a VPC alongside a variety of related resources, including:
 - Network Interfaces
 - NAT Gateways
 - An Internet Gateway
-- A VPC Endpoint
-- A bastion EC2 instance
 
 Example usage:
 
-```code
+```vpc module code
   
   module "vpc" {
   source = "github.com/ajaytrivedi67/terraform-aws-vpc-develop"
